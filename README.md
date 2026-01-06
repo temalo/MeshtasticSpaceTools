@@ -141,7 +141,7 @@ The script sends a formatted message like:
 
 ## Development
 
-To test without sending to Meshtastic, you can comment out the `send_to_meshtastic()` call in the `main()` function.
+To test without sending to Meshtastic, set `MESHTASTIC_SEND_ENABLED=false` in your `.env` file. The script will display what would be sent instead of actually transmitting to the device.
 
 ## License
 
